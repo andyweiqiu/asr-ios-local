@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>father</string>
+	<string>mother</string>
+	<string>sister</string>
+	<string>My father</string>
+	<string>My mother</string>
+	<string>My sister</string>
+	<string>He&apos;s my father</string>
+	<string>She&apos;s my mother</string>
+	<string>She&apos;s my sister</string>
+	<string>grandma</string>
+	<string>grandpa</string>
+	<string>brother</string>
+	<string>My grandma</string>
+	<string>My grandpa</string>
+	<string>My brother</string>
+	<string>She&apos;s my grandma</string>
+	<string>He&apos;s my grandpa</string>
+	<string>He&apos;s my brother</string>
+	<string>aunt</string>
+	<string>uncle</string>
+	<string>baby</string>
+	<string>My uncle</string>
+	<string>My aunt</string>
+	<string>The baby</string>
+	<string>She&apos;s my aunt</string>
+	<string>He&apos;s my uncle</string>
+	<string>He&apos;s the baby</string>
+	<string>bus</string>
+	<string>car</string>
+	<string>plane</string>
+	<string>A bus</string>
+	<string>A car</string>
+	<string>A plane</string>
+	<string>It&apos;s a bus</string>
+	<string>It&apos;s a car</string>
+	<string>It&apos;s a plane</string>
+	<string>bear</string>
+	<string>dinosaur</string>
+	<string>doll</string>
+	<string>A bear</string>
+	<string>A dinosaur</string>
+	<string>A doll</string>
+	<string>It&apos;s a bear</string>
+	<string>It&apos;s a dinosaur</string>
+	<string>It&apos;s a doll</string>
+	<string>balloon</string>
+	<string>bubble</string>
+	<string>ball</string>
+	<string>A balloon</string>
+	<string>A bubble</string>
+	<string>A ball</string>
+	<string>It&apos;s a ball</string>
+	<string>It&apos;s a balloon</string>
+	<string>It&apos;s a bubble</string>
+	<string>apple</string>
+	<string>orange</string>
+	<string>pear</string>
+	<string>An apple</string>
+	<string>An orange</string>
+	<string>A pear</string>
+	<string>It&apos;s an apple</string>
+	<string>It&apos;s an orange</string>
+	<string>It&apos;s a pear</string>
+	<string>banana</string>
+	<string>grape</string>
+	<string>cherry</string>
+	<string>Bananas</string>
+	<string>Cherries</string>
+	<string>Grapes</string>
+	<string>These are bananas</string>
+	<string>These are cherries</string>
+	<string>These are grapes</string>
+	<string>peach</string>
+	<string>mango</string>
+	<string>lemon</string>
+	<string>A peach</string>
+	<string>A mango</string>
+	<string>A lemon</string>
+	<string>It&apos;s a peach</string>
+	<string>It&apos;s a mango</string>
+	<string>It&apos;s a lemon</string>
+	<string>T shirt</string>
+	<string>coat</string>
+	<string>sweater</string>
+	<string>A T shirt</string>
+	<string>A coat</string>
+	<string>A sweater</string>
+	<string>It&apos;s a T shirt</string>
+	<string>It&apos;s a coat</string>
+	<string>It&apos;s a sweater</string>
+	<string>pants</string>
+	<string>shorts</string>
+	<string>skirt</string>
+	<string>Yellow pants</string>
+	<string>Red shorts</string>
+	<string>A blue skirt</string>
+	<string>They&apos;re pants</string>
+	<string>They&apos;re shorts</string>
+	<string>It&apos;s a skirt</string>
+	<string>boots</string>
+	<string>shoes</string>
+	<string>slippers</string>
+	<string>Blue boots</string>
+	<string>Black shoes</string>
+	<string>Blue slippers</string>
+	<string>They are boots</string>
+	<string>They are shoes</string>
+	<string>They are slippers</string>
+</array>
+</plist>
