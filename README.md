@@ -3,7 +3,7 @@
 
 教程https://www.jianshu.com/u/3c2a0bd52ebc
 
-由于kaldi-ios.a和final.mdl文件比较大，没有上传。
+由于kaldi-ios.a和final.mdl文件比较大，没有上传（如果有需要可以留言，我可以把kaldi库和模型文件发出来）。
 
 该demo是将kaldi本地化，直接在iOS本地进行识别，支持实时流，支持跨平台，识别速度快。
 
