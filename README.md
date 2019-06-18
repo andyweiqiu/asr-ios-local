@@ -1,5 +1,5 @@
 # asr-ios-local
-基于kaldi的ios本地语音识别
+基于kaldi的ios本地语音识别，整个识别的过程都在本地完成，不需要通过网络传输到服务器解码。
 
 教程https://www.jianshu.com/u/3c2a0bd52ebc
 
