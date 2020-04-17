@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15DD1D3D4BB384C15C5F4C82 /* Pods_ASRLocalSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261F0EB8D111B6FED4F137DC /* Pods_ASRLocalSDKDemo.framework */; };
 		1AA73FAF2223C98E00B471BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA73FAE2223C98E00B471BC /* AppDelegate.m */; };
 		1AA73FB22223C98E00B471BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA73FB12223C98E00B471BC /* ViewController.m */; };
 		1AA73FB72223C99100B471BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA73FB62223C99100B471BC /* Assets.xcassets */; };
@@ -34,9 +35,11 @@
 		1AA73FFE2223CB3A00B471BC /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA73FFD2223CB3A00B471BC /* libresolv.9.tbd */; };
 		1AA740002223CB3E00B471BC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA73FFF2223CB3E00B471BC /* Accelerate.framework */; };
 		1AA740042223CD2400B471BC /* libfst-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA740022223CD2400B471BC /* libfst-ios.a */; };
-		1AA740152223D99700B471BC /* libASRLocalSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA740142223D99700B471BC /* libASRLocalSDK.a */; };
 		1AA740192223DAF600B471BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA740182223DAF600B471BC /* Main.storyboard */; };
 		1AA7401B2223DB5900B471BC /* word.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7401A2223DB5900B471BC /* word.plist */; };
+		1AA7401D2223E61D00B471BC /* final.mdl in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7401C2223E61D00B471BC /* final.mdl */; };
+		1AA7401F2223E62800B471BC /* kaldi-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA7401E2223E62800B471BC /* kaldi-ios.a */; };
+		1AAD13EA24497E3E002E6E03 /* libASRLocalSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD13E924497E3E002E6E03 /* libASRLocalSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,10 +86,17 @@
 		1AA73FFD2223CB3A00B471BC /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		1AA73FFF2223CB3E00B471BC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		1AA740022223CD2400B471BC /* libfst-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libfst-ios.a"; sourceTree = "<group>"; };
-		1AA740142223D99700B471BC /* libASRLocalSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASRLocalSDK.a; sourceTree = "<group>"; };
-		1AA740172223D9AA00B471BC /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
 		1AA740182223DAF600B471BC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1AA7401A2223DB5900B471BC /* word.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = word.plist; sourceTree = "<group>"; };
+		1AA7401C2223E61D00B471BC /* final.mdl */ = {isa = PBXFileReference; lastKnownFileType = file; path = final.mdl; sourceTree = "<group>"; };
+		1AA7401E2223E62800B471BC /* kaldi-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "kaldi-ios.a"; sourceTree = "<group>"; };
+		1AAD13E624497AB9002E6E03 /* EduLocalSpeechRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EduLocalSpeechRecognizer.h; sourceTree = "<group>"; };
+		1AAD13E724497AB9002E6E03 /* EduLocalSpeechRecognitionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EduLocalSpeechRecognitionResult.h; sourceTree = "<group>"; };
+		1AAD13E824497AB9002E6E03 /* EduLocalTranscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EduLocalTranscription.h; sourceTree = "<group>"; };
+		1AAD13E924497E3E002E6E03 /* libASRLocalSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASRLocalSDK.a; sourceTree = "<group>"; };
+		261F0EB8D111B6FED4F137DC /* Pods_ASRLocalSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASRLocalSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548EA1E9AF58CFFD95EDF28A /* Pods-ASRLocalSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRLocalSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-ASRLocalSDKDemo/Pods-ASRLocalSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C78E17BDA19F0C2CACEDA0AA /* Pods-ASRLocalSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRLocalSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-ASRLocalSDKDemo/Pods-ASRLocalSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +104,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA740152223D99700B471BC /* libASRLocalSDK.a in Frameworks */,
+				1AAD13EA24497E3E002E6E03 /* libASRLocalSDK.a in Frameworks */,
 				1AA740002223CB3E00B471BC /* Accelerate.framework in Frameworks */,
 				1AA73FFE2223CB3A00B471BC /* libresolv.9.tbd in Frameworks */,
 				1AA73FFC2223CB3100B471BC /* libiconv.2.tbd in Frameworks */,
+				1AA7401F2223E62800B471BC /* kaldi-ios.a in Frameworks */,
 				1AA740042223CD2400B471BC /* libfst-ios.a in Frameworks */,
 				1AA73FFA2223CB2A00B471BC /* libc++.1.tbd in Frameworks */,
+				15DD1D3D4BB384C15C5F4C82 /* Pods_ASRLocalSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +125,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		096CADD190AB3739ADACC684 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C78E17BDA19F0C2CACEDA0AA /* Pods-ASRLocalSDKDemo.debug.xcconfig */,
+				548EA1E9AF58CFFD95EDF28A /* Pods-ASRLocalSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1AA73FA12223C98D00B471BC = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +143,7 @@
 				1AA73FC52223C99100B471BC /* ASRLocalSDKDemoUITests */,
 				1AA73FAB2223C98E00B471BC /* Products */,
 				1AA73FF82223CB2900B471BC /* Frameworks */,
+				096CADD190AB3739ADACC684 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				1AA73FDB2223CAE100B471BC /* asr.conf */,
+				1AA7401C2223E61D00B471BC /* final.mdl */,
 				1AA73FE12223CAE100B471BC /* final.dubm */,
 				1AA73FD82223CAE100B471BC /* final.ie */,
 				1AA73FE42223CAE100B471BC /* final.mat */,
@@ -191,6 +215,7 @@
 				1AA73FFD2223CB3A00B471BC /* libresolv.9.tbd */,
 				1AA73FFB2223CB3100B471BC /* libiconv.2.tbd */,
 				1AA73FF92223CB2A00B471BC /* libc++.1.tbd */,
+				261F0EB8D111B6FED4F137DC /* Pods_ASRLocalSDKDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,7 +223,8 @@
 		1AA740012223CD1900B471BC /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				1AA740142223D99700B471BC /* libASRLocalSDK.a */,
+				1AAD13E924497E3E002E6E03 /* libASRLocalSDK.a */,
+				1AA7401E2223E62800B471BC /* kaldi-ios.a */,
 				1AA740022223CD2400B471BC /* libfst-ios.a */,
 			);
 			name = libs;
@@ -207,7 +233,9 @@
 		1AA740162223D9AA00B471BC /* include */ = {
 			isa = PBXGroup;
 			children = (
-				1AA740172223D9AA00B471BC /* Worker.h */,
+				1AAD13E724497AB9002E6E03 /* EduLocalSpeechRecognitionResult.h */,
+				1AAD13E624497AB9002E6E03 /* EduLocalSpeechRecognizer.h */,
+				1AAD13E824497AB9002E6E03 /* EduLocalTranscription.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -219,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AA73FCB2223C99100B471BC /* Build configuration list for PBXNativeTarget "ASRLocalSDKDemo" */;
 			buildPhases = (
+				321AC3AD7CDD3DAD2DC4FDA8 /* [CP] Check Pods Manifest.lock */,
 				1AA73FA62223C98E00B471BC /* Sources */,
 				1AA73FA72223C98E00B471BC /* Frameworks */,
 				1AA73FA82223C98E00B471BC /* Resources */,
+				58D55824CBB5E8CBC239F46B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA7401D2223E61D00B471BC /* final.mdl in Resources */,
 				1AA73FBA2223C99100B471BC /* LaunchScreen.storyboard in Resources */,
 				1AA73FEB2223CAE100B471BC /* ivector_extractor.conf in Resources */,
 				1AA73FF22223CAE100B471BC /* final.dubm in Resources */,
@@ -323,6 +354,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		321AC3AD7CDD3DAD2DC4FDA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASRLocalSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D55824CBB5E8CBC239F46B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ASRLocalSDKDemo/Pods-ASRLocalSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ASRLocalSDKDemo/Pods-ASRLocalSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ASRLocalSDKDemo/Pods-ASRLocalSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AA73FA62223C98E00B471BC /* Sources */ = {
@@ -479,6 +552,7 @@
 		};
 		1AA73FCC2223C99100B471BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C78E17BDA19F0C2CACEDA0AA /* Pods-ASRLocalSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,7 +568,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ASRLocalSDKDemo",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.100.developer.ASRLocalSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.100.ASRLocalSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -502,6 +576,7 @@
 		};
 		1AA73FCD2223C99100B471BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548EA1E9AF58CFFD95EDF28A /* Pods-ASRLocalSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,7 +592,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ASRLocalSDKDemo",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.100.developer.ASRLocalSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.100.ASRLocalSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
