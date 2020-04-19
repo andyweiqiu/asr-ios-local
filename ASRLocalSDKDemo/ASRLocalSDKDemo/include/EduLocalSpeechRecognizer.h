@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface EduLocalSpeechRecognizer : NSObject
 
+@property (nonatomic, assign) BOOL openVad;
+
 @property (nonatomic, copy) void (^logHandler)(NSString *log);
 
 - (void)startRecognizerWithResultHandler:(void (^)(EduLocalSpeechRecognitionResult* __nullable result, EduLocalSpeechError *error, BOOL final))resultHandler;

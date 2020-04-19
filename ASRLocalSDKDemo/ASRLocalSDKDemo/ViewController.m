@@ -37,10 +37,6 @@
 
     self.logText = @"";
 
-    self.tmpDataSource = [NSMutableArray arrayWithArray:self.dataSource];
-
-    NSString *target = self.tmpDataSource[0];
-
     self.speechRecognizer = [[EduLocalSpeechRecognizer alloc] init];
 }
 
@@ -49,6 +45,7 @@
     self.logText = @"";
     self.logTV.text = self.logText;
 
+    self.speechRecognizer.openVad = NO;
     [self.startButton setEnabled:NO];
     [self.startButton setTitle:@"正在识别" forState:UIControlStateDisabled];
 
@@ -133,17 +130,6 @@
     dateStr=[formater stringFromDate:date];
 
     return dateStr;
-}
-
-- (NSArray *)dataSource {
-    if (!_dataSource) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"word" ofType:@"plist"];
-        NSArray *datas = [NSArray arrayWithContentsOfFile:path];
-
-        _dataSource = datas;
-    }
-
-    return _dataSource;
 }
 
 #pragma mark - WorkerDelegate
