@@ -45,7 +45,7 @@
     self.logText = @"";
     self.logTV.text = self.logText;
 
-    self.speechRecognizer.openVad = NO;
+//    self.speechRecognizer.openVad = NO;
     [self.startButton setEnabled:NO];
     [self.startButton setTitle:@"正在识别" forState:UIControlStateDisabled];
 
