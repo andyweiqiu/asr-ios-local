@@ -1,4 +1,5 @@
 # asr-ios-local
+##中文说明
 基于kaldi的ios本地语音识别，整个识别的过程都在本地完成，不需要通过网络传输到服务器解码。
 
 教程https://www.jianshu.com/u/3c2a0bd52ebc
@@ -9,7 +10,7 @@
 
 只要替换你的模型，就可以用这个demo来测试你的模型了，不需要你去关注其他的东西。
 
-
+##English description
 Based on Kaldi's ios local speech recognition, the whole recognition process is done locally, which does not need to be transmitted to the server for decoding over the network.
 
 Tutorial: https://www.jianshu.com/u/3c2a0bd52ebc
