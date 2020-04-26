@@ -16,7 +16,7 @@ Based on Kaldi's ios local speech recognition, the whole recognition process is 
 
 Tutorial: https://www.jianshu.com/u/3c2a0bd52ebc
 
-Because the kaldi-ios.a and final. MDL files are relatively large, they have not been uploaded (if necessary, you can leave a message, I can send Kaldi library and model files).
+Because the kaldi-ios.a and final.dml files are relatively large, they have not been uploaded (if necessary, you can leave a message, I can send Kaldi library and model files).
 
 This demo is to localize Kaldi and recognize it directly in iOS. It supports real-time streaming, cross-platform support, fast recognition and supports Chinese and English models.
 
